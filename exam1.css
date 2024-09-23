@@ -1,0 +1,52 @@
+body {
+    width: 1500px;
+    
+    
+}
+
+header {
+    background-color: rgb(26, 94, 117);
+    height: 100px;
+}
+
+nav {
+    float: right;
+    padding-right: 80px;
+    padding-top: 20px;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+    
+}
+
+li {
+    list-style:none;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    color: white;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+
+
+.bgimg {
+    background-image: url('office.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 300px;
+
+}
